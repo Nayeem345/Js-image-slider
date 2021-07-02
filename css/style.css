@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#img-slider{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 100%, rgba(0,190,228,1) 100%);
+    width:100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+h1{
+    color: white;
+}
+img{
+    width: 700px;
+    height: 500px;
+}
+button{
+    outline: none;
+    border: none;
+    /* border: 2px solid rgb(3, 3, 1); */
+    background: rgb(190, 230, 167);
+    color:black;
+    padding: 10px 30px;
+    margin-top: 20px;
+    transition: 0.8s ease;
+    cursor: pointer;
+    font-weight: bold;
+    
+    
+}
+button:hover{
+    
+    color: rgb(240, 240, 240);
+    background-color: rgb(64, 109, 207);
+
+}
+.next{
+   position: absolute;
+   
+   right: 400px;
+}
+.container{
+    
+}
